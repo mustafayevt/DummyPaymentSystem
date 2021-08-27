@@ -1,0 +1,14 @@
+﻿@model PaymentProviderLogic.Models.CreatePaymentResponse
+@{
+    var baseUrl = (string)ViewBag.BaseUrl;
+}
+<html>
+<body>
+<form action="http://dumdumpay.site/secure/" method="POST">
+    <input type="text" name="MD" value="" required placeholder="payment reference"/>
+    <input type="text" hidden name="TermUrl" value='@($"{baseUrl}/Payment/PaymentConfirmation")'/>
+    <input type="text" name="PaReq" value="@Model.PaReq"/>
+    <input type="submit" title="Submit"/>
+</form>
+</body>
+</html>

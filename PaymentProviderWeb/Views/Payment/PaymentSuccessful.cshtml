@@ -1,0 +1,11 @@
+﻿@model PaymentProviderLogic.Models.ConfirmPaymentResponse
+@{
+    ViewBag.Title = "Payment successful";
+    Layout = "_Layout";
+}
+
+<div class="alert alert-success" role="alert">
+    <h2>Your payment done successfully.</h2>
+</div>
+
+@Html.RenderPartialAsync("_PaymentInfo", Model);

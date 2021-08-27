@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1PI48qvFnLcQ+2hK6jpOxsGPUM3CyjUGFRjj+ABeKDj581yPN+gyHnCa8P+4ySUY8dW1H6Deebulff5UsI+gog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\React 17 and ASP.NET Core 6\\DummyPaymentSystem\\PaymentProviderLogic\\PaymentProviderLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

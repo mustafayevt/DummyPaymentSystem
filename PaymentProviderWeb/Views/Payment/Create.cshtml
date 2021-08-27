@@ -1,0 +1,24 @@
+﻿@model PaymentProviderLogic.Models.CreatePaymentRequest
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <form asp-controller="Payment" asp-action="Create" method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="row">
+            <input asp-for="Amount" placeholder="Amount" autocomplete="off" type="number" class="form-control col-3" value=""/>
+            <input asp-for="Country" placeholder="Country" autocomplete="off" type="text" class="form-control col-3" value=""/>
+            <input asp-for="Currency" placeholder="Currency" autocomplete="off" type="text" class="form-control col-3" value=""/>
+            <input asp-for="Cvv" placeholder="Cvv" autocomplete="off" type="text" class="form-control col-3" value=""/>
+        </div>
+        <div class="row">
+            <input asp-for="CardHolder" placeholder="CardHolder" autocomplete="off" type="text" class="form-control col-3" value=""/>
+            <input asp-for="CardNumber" placeholder="CardNumber" autocomplete="off" type="text" class="form-control col-3" value=""/>
+            <input asp-for="CardExpiryDate" placeholder="CardExpiryDate" autocomplete="off" type="text" class="form-control col-3" value=""/>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </form>
+</div>

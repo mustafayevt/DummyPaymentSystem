@@ -1,0 +1,22 @@
+﻿@model PaymentProviderLogic.Models.ConfirmPaymentResponse
+
+@{
+    ViewBag.Title = "Payment status";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <form asp-controller="Payment" asp-action="PaymentStatus" method="post">
+        <div class="row">
+            <input asp-for="TransactionId" required placeholder="transaction id" autocomplete="off" type="text" class="form-control col-3" value=""/>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </form>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.TransactionId))
+{
+    @Html.RenderPartialAsync("_PaymentInfo", Model);
+}

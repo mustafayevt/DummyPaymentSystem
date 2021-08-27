@@ -1,0 +1,9 @@
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\bin\Debug\netstandard2.0\PaymentProviderLogic.deps.json
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\bin\Debug\netstandard2.0\PaymentProviderLogic.dll
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\bin\Debug\netstandard2.0\PaymentProviderLogic.pdb
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.AssemblyInfo.cs
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.dll
+C:\Users\Lenovo\Documents\React 17 and ASP.NET Core 6\DummyPaymentSystem\PaymentProviderLogic\obj\Debug\netstandard2.0\PaymentProviderLogic.pdb

@@ -1,0 +1,20 @@
+﻿@model PaymentProviderLogic.Models.ConfirmationModel
+
+@{
+    ViewBag.Title = "Payment Confirmation";
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <form asp-controller="Payment" asp-action="" method="post">
+        <input hidden asp-for="Md"/>
+        <input hidden asp-for="PaRes"/>
+        <div class="row">
+            <h2>Confirm payment : @Model.Md</h2>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-dark" formaction="PaymentConfirmationConfirm" style="margin-right: 5px">Confirm</button>
+            <button type="submit" class="btn btn-dark" formaction="PaymentConfirmationCancel">Cancel</button>
+        </div>
+    </form>
+</div>
